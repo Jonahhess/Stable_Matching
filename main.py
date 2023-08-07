@@ -1,4 +1,3 @@
-from person import Gender
 from dating_pool import Dating_Pool
 from matching import Matching
 
