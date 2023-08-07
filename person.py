@@ -15,9 +15,3 @@ class Person:
         self.loyalty = loyalty
         self.pref_list = pref_list
         self.asked_out = asked_out
-    
-    def __hash__(self):
-        return hash((self.id, self.gender))
-
-    def preference(self, candidate):
-        return self.pref_list.index(candidate)
